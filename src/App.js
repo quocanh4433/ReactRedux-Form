@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import ExerciseCartRedux from './ExerciseCartRedux/ExerciseCartRedux';
+import BaiTapQuanLyNguoiDung from './BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung';
+
 
 function App() {
   return (
     <div>
-      <ExerciseCartRedux/>
+      <BaiTapQuanLyNguoiDung/>
     </div>
   );
 }

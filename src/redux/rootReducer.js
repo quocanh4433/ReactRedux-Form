@@ -1,8 +1,9 @@
 import {combineReducers} from 'redux';
-import CartReducer from '../redux/CartReducer'
+import { BaiTapQuanLyNguoiDungReducer } from './reducer/BaiTapQuanLiNguoiDungReducer';
+
 
 const rootReducer = combineReducers({ // Store tổng của ứng dụng
-    stateCart : CartReducer // State giỏ hàng
+    BaiTapQuanLyNguoiDungReducer
 })
 
 export default rootReducer
